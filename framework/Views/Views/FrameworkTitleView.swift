@@ -18,6 +18,7 @@ struct FrameworkTitleView: View {
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
+                .foregroundStyle(Color(.label))
                 .scaledToFit() // A view scales to fit its parent, maintaining this view’s aspect ratio.
                 .minimumScaleFactor(0.5)
         }

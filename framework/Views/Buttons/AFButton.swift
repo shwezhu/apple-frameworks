@@ -16,7 +16,7 @@ struct AFButton: View {
             .fontWeight(.semibold)
             .frame(width: 250, height: 50)
             .background(Color.red)
-            .foregroundColor(.white)
+            .foregroundStyle(Color.white)
             .clipShape(RoundedRectangle(cornerSize: CGSize(width: 10, height: 10)))
     }
 }

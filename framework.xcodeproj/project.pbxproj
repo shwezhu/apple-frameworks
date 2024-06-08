@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A90BCD2C13D588003D4EB1 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A90BCC2C13D588003D4EB1 /* test.swift */; };
 		63C44BAD2C0FDF460060140E /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C44BAC2C0FDF460060140E /* SafariView.swift */; };
 		63C44BAF2C10919B0060140E /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C44BAE2C10919B0060140E /* FrameworkTitleView.swift */; };
 		63C44BB12C1092530060140E /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C44BB02C1092530060140E /* XDismissButton.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63A90BCC2C13D588003D4EB1 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		63C44BAC2C0FDF460060140E /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		63C44BAE2C10919B0060140E /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		63C44BB02C1092530060140E /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
@@ -92,8 +94,8 @@
 		63C44BB82C1097C70060140E /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				63C44BB02C1092530060140E /* XDismissButton.swift */,
 				63EFD8F62C0C07FC0072654A /* AFButton.swift */,
+				63C44BB02C1092530060140E /* XDismissButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 				63EFD8E12C0B9DBD0072654A /* frameworkApp.swift */,
 				63EFD8E52C0B9DBE0072654A /* Assets.xcassets */,
 				63EFD8E72C0B9DBE0072654A /* Preview Content */,
+				63A90BCC2C13D588003D4EB1 /* test.swift */,
 			);
 			path = framework;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				63EFD8F22C0BA3600072654A /* FrameworkGridView.swift in Sources */,
 				63EFD8F02C0B9F190072654A /* Framework.swift in Sources */,
 				63C44BB12C1092530060140E /* XDismissButton.swift in Sources */,
+				63A90BCD2C13D588003D4EB1 /* test.swift in Sources */,
 				63EFD8E22C0B9DBD0072654A /* frameworkApp.swift in Sources */,
 				63EFD8F72C0C07FC0072654A /* AFButton.swift in Sources */,
 				63EFD8F42C0BE7E00072654A /* FrameworkDetailView.swift in Sources */,
